@@ -1,0 +1,30 @@
+
+    h1 {
+          background-color: #BFBFBF;
+          font-family: Cambria, Times, sans-serif;
+          color: #1f497D;
+          font-size: 24px;
+          text-align: center;
+          text-transform: uppercase;
+
+
+    }
+    h2 {
+          font-family: Cambria, Times,serif;
+          color: #632423;
+          font-size: 18px;
+          letter-spacing: 0.5em;
+          text-transform: uppercase;
+
+
+    }
+
+    li {
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    b {
+        font-size: normal;
+        text-transform: lowercase;
+    }

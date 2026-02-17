@@ -1,0 +1,17 @@
+172.29.0.0/16 se desea dividir en subredes de 1500. Calcula el ID de red de cada una de las SR
+
+2048 = 2¹¹ > 1500
+
+2048 -2 = 2046
+
+/16 + /5 = /21
+
+172.29.|aaaaa|bbb.bbbbbbbb
+
+1 SUBRED 172.29.0.0/21
+1 host 172.29.0.1
+ultimo 172.29.7.254
+
+2 subred
+
+172.29.|00001|000.0000 = 172.29.8.0/21

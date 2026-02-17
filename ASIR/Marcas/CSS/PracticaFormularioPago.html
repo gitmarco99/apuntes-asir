@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Pago</title>
+    <link rel="stylesheet" href="FormPago.css">
+</head>
+<body>
+    <div class="cuerpo">
+        <div class="titulo">
+            <p>FORMULARIO DE PAGO</p>
+            <p>(Los campos obligatorios se han marcado con *)</p>   
+        </div>
+        <fieldset class="Contacto">
+            <legend>Información de contacto</legend>
+            <fieldset class="profesion">
+                <legend>Profesión</legend>
+                <label><input type="radio" value="Profesor/a">Profesor/a</label>
+                <label><input type="radio" value="Profesor/a">Estudiante</label>
+                <label><input type="radio" value="Profesor/a">Otro</label>
+            </fieldset>
+            <div class="A">
+            <label for="nombre">Nombre*</label>
+            <input type="text" name="nombre" required>
+            </div>
+            <div class="B">
+            <label for="Correo">Correo*</label>
+            <input type="text" name="Correo" required>
+            </div>
+            <div class="C">
+            <label for="num">Número de Telefono*</label>
+            <input type="text" name="NUM_TEL" required>
+            </div>
+            <div class="D">
+            <label for="contraseña">Contraseña*</label>
+            <input type="password" name="Passw" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="Info_pago">
+            <legend>Información de pago</legend>
+            <label for="tipo_tarj">Tipo de tarjeta</label>
+            <select name="tipo_tarj" id="tipo_tarj">
+                <option value="1">Visa</option>
+                <option value="2">Mastercard</option>
+                <option value="3">American Express</option>
+                <option value="4">UnionPay</option>
+            </select>
+            <input type="text" name="nombre" required>
+            <label for="num_tarj">Número de tarjeta*</label>
+            <input type="text" name="Correo" required>
+            <label for="caducidad">Fecha de caducidad*</label>
+            <input type="date" name="date" required>
+            <label for="Met_pago">Metodo de pago preferido</label>
+            <select size="3" name="metodo" id="metodo">
+                <option value="1">Tarjeta de crédito</option>
+                <option value="2">Paypal</option>
+                <option value="3">Bizum</option>
+                <option value="4">tranferencia</option>
+            </select>
+        </fieldset>
+        <fieldset class="Politica">
+            <legend>Politica de privacidad</legend>
+            <input type="checkbox"  name="terminos" required>
+            <label for="Met_pago">He leido y aceptado las opciones de contratación y la Politica de privacidad</label>
+            <input type="checkbox"  name="terminos" required>
+             <label for="Met_pago">No quiero leer newsletters ni comunicacions comerciales de GOYAZON</label>
+        </fieldset>
+        <div class="Botones">
+
+            <button type="submit" class="boton-enviar">Validar el pago</button>
+            <button type="reset" class="boton-cancelar">Cancelar</button>  
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+
+
+
+body {
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.cuerpo {
+
+    border-radius: 15px;
+    width: 700px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+ 
+}
+
+fieldset {
+
+    border-radius: 5px;
+
+}
+
+.titulo, .Contacto, .profesion, .Info_pago, .Politica {
+
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 8px;
+    border: solid 1px;
+
+}
+
+.titulo > :first-of-type {
+
+    color: black;
+    font-weight: bold;
+    font-size: 24px
+
+
+}
+
+.titulo > :last-of-type {
+
+     color:red;
+     font-size: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.profesion {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.A, .B, .C, .D {
+
+    margin: 15px;
+    margin-left: 1px;
+    
+}
+
+input {
+
+    padding: 5px;
+}

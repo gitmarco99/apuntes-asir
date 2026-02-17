@@ -1,0 +1,40 @@
+Has econtrado trabajo. El centro Hu Jintao de Xian (China) ha confíado en ti para organizar su red, porque le han dicho que hay un par de técnicos en la Elipa que son auténticas máquinas del tiempo. ¿Les ayudamos?
+
+Ellos necesitan dar servicio a cuatro salas del laboratorio que trabajan en proyectos confidenciales e independientes. La primera es su principal fuente de ingresos y tiene 200 investigadores; la segunda cuenta con 100 investigadores; la tercera está arrancando y tiene 5 puestos, pero con previsión de ampliar hasta 50; y luego está el consejo de dirección que es muy receloso y quiere una red única para el presidente y el vicepresidente. 
+
+La IANA les ha dado la red 178.67.22.0/23, pero ellos ven que es insuficiente. El problema es que hay pocas IPs y por lo visto todo se lo quieren quedar los yankees. Les han dicho que se apañen con lo que hay, que hubiesen inventado ellos internet. 
+
+
+178.67.22.0/23 = 178.67.0001011|0.00000000/23
+4 salas
+1ª 200 investigadores
+2ª 100
+3ª 50
+4ª 2 presi y vice
+
+
+1ª 2⁸ = 256 - 2 = 254 > 200 --> necesitaremos 8 bits de hosts para esta red /23 + /1
+
+178.67.0001011|0|.00000000/24 
+
+Rango de ips desde la 178.67.22.1/24 hasta 178.67.22.254/24
+
+
+2ª SUBRED 2⁷ = 128 - 2 = 126 > 100 --> necesitaremos 7 bits de hosts para esta red /24 + /1
+178.67.00010111.0|0000000/25
+Rango de ips desde la 178.67.23.1/25 hasta 178.67.23.126/25
+
+
+3ª SUBRED --> 2⁶ = 64 - 2 = 62 > 50 --> necesitaremos 6 bits de hosts para esta red /25 + /1
+
+178.67.00010111.10|000000/26
+Rango de ips desde la 178.67.23.129/26 hasta 178.67.23.190/26
+
+
+4ª 2² = 4 - 2 = 2 = 2 --> necesitaremos 2 bits de hosts para esta red /26 + /4 
+178.67.00010111.110000|00/30
+Rango de ips desde la 178.67.23.193/30 hasta 178.67.23.194/30
+
+
+
+

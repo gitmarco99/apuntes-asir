@@ -1,0 +1,25 @@
+
+Vehiculos
+
+matricula
+marca
+modelo
+color
+percio de venta
+
+Clientes
+id_cliente
+NIF
+Nombre
+direccion
+ciudad
+num teléfono
+
+Revisiones
+Id_revision
+cambio_filtro
+cambio_aceite
+sustitucion_frenos
+otras_operaciones
+id_vehiculo
+

@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+body {
+    background-color: #007ac2; 
+    color: #333;
+    font-size: 13px;
+}
+
+.tuenti {
+    text-align: center;
+    padding: 20px;
+    background-color: #007ac2
+}
+
+img {
+    height: 40px;
+}
+
+.container {
+    background-color: #f0f2f5;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.formulario {
+    background: white;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+input[type="text"], 
+input[type="password"], 
+input[type="email"], 
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+

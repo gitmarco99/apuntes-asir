@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="formulario.css">
+    <title>formulario</title>
+</head>
+
+ <body>
+ <form>
+    <div class="CUERPO">
+    
+        <div class="comunidad">
+        <p>¡Únete a nuestra comunidad!</p>
+        </div>
+
+
+            
+        <div class="Titulo">
+            <p>Formulario de Reseña del producto</p> 
+            <p>Eutod et exit comunidad de psitro de lesidos</p> 
+        </div>
+
+
+        <div class="Nombre">
+            <label for="nombre">Nombre del producto</label>
+            <input type="text" placeholder="Nombre" required>
+        </div>
+
+        <div class="Valoracion" required>
+            <label for="Valoración">Valoración</label>
+                    <select name="Valo" id="Valo">
+                        <option value="1" disabled selected>Selecciona una opción</option>
+                        <option value="2">★</option>
+                        <option value="2">★★</option>
+                        <option value="2">★★★</option>
+                        <option value="2">★★★★</option>
+                        <option value="2">★★★★★</option>
+                    </select>
+                </div>
+
+                <div class="Comentario">
+                    <label for="Comentario">Comentario</label>
+                    <textarea required></textarea>
+                </div>
+
+                <div class="Recomendación">
+                    <label for="Recomendación">Recomendación</label>
+                    <div required>
+                        <input type="radio" value="Si">Si</input>
+                        <input type="radio" value="No">No</input>
+                    </div>
+                    
+                </div>
+                
+
+                <div class="correo">
+                    <div>
+                        <label for="Email">Correo Electronico</label>
+                        <input type="text" placeholder="nombre@gmail.com" required > 
+                    </div>
+                    
+                </div>
+
+                <div class="botones">
+                    <button type="submit" class="boton-enviar">Enviar Reseña</button>
+                    <button type="reset" class="boton-Cancelar">Cancelar</button>
+                </div>
+    </div>
+</form>          
+ </body>
+</html>

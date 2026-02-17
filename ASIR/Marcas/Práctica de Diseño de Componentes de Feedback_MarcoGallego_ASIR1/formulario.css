@@ -1,0 +1,208 @@
+
+
+
+
+body{
+    
+    background-color: #A4B6C4;
+    font-family: sans-serif;
+    color: black;
+    display:flex;
+    justify-content:center;
+}
+
+.CUERPO{
+
+    width: 500px;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+    margin-top: 50px;
+}
+
+.comunidad {
+
+    background-color: #202D3D;
+    border: 1px solid #202D3D;
+    text-align: center;
+    color: white;
+    font-weight:800;
+    font-size: 24px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.Titulo {
+
+    margin-top: 17px;
+    text-align: center;
+
+
+
+}
+
+.Titulo p:first-of-type {
+
+    font-size: 21px;
+    font-weight: 600;
+    color: #444444;
+
+}
+
+.Titulo P:last-of-type {
+
+    margin-top: -10px;
+    color: #777777;
+}
+
+.Nombre {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+
+}
+
+.Nombre, .Valoracion, .Comentario, .Recomendación label{
+    font-size: 18px;
+    color: #555555;
+
+}
+
+.Nombre, .Valoracion, .Comentario, .Recomendación, .correo, .botones {
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.Nombre input{
+    margin-top: 5px ;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #BCC1C8;
+    font-size: 16px;
+}
+
+.Valoracion {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+
+}
+.Valoracion select{
+    margin-top: 5px ;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #BCC1C8;
+    font-size: 16px;
+    background-color: white;
+
+}
+
+.Comentario {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+
+}
+
+.Comentario textarea{
+    height: 45px;
+    margin-top: 5px ;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #BCC1C8;
+    font-size: 16px;
+    background-color: white;
+}
+
+.Recomendación {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.Recomendación div{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    color: #555555;
+
+}
+
+.correo {
+
+    background-color: #202D3D;
+    margin-top: 17px;
+    border-radius: 15px;
+    border: 1px solid;
+
+
+}
+
+.correo div {
+
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+
+.correo div label {
+
+    font-size: 17px;
+    color: white;
+    font-weight: 550;
+
+
+}
+
+.correo div input{
+
+    margin-top: 5px ;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #BCC1C8;
+    font-size: 16px;
+    background-color: white;
+}
+
+.botones {
+
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.botones button{
+
+    width: 48%;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.botones button:first-of-type {
+
+    background-color: #0084ff;
+    border: 1px solid #0084ff;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 17px;
+
+
+}
+
+.botones button:last-of-type {
+
+    background-color: #94a3b8;
+    border: 1px solid #94a3b8;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    
+
+}

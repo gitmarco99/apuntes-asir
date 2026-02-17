@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario_Pago_Marco</title>
+    <link rel="stylesheet" href="formulario_mgm.css">
+</head>
+<body>
+
+    <div class="formulario">
+        <div class="titulo">
+        <p>FORMULARIO DE PAGO</p>
+        <p>(Los campos obligatorios se han marcado con *)</p>
+        </div>
+        <form action="pago" method="post">
+            
+            <fieldset>
+                <legend>Información de contacto</legend>
+                
+                <div id="profesion">
+                    <fieldset class="prof">
+                        <legend>Profesion</legend>
+                        <label><input type="radio" name="profesion">Profesor/a</label>
+                        <label><input type="radio" name="profesion">Estudiante</label>
+                        <label><input type="radio" name="profesion"> Otro</label>
+                    </fieldset>
+                </div>
+
+                <div class="escribir">
+                    <input type="text" id="nombre" name="nombre" required>
+                     <label for="nombre">Nombre<span class="asterisco">*</span>: </label>
+
+                    <input type="email" id="correo" name="correo" required>
+                    <label for="correo">Correo<span class="asterisco">*</span>: </label>
+
+                    
+                    <input type="tel" id="num_tel" name="num_tel" maxlength="12" required>
+                    <label for="telefono">Número de teléfono<span class="asterisco">*</span>: </label>
+
+                    
+                    <input type="password" id="pw" name="contra" required>
+                    <label for="pass">Contraseña<span class="asterisco">*</span>: </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Información de pago</legend>
+                
+                <div class="escribir">
+                    
+                    <select id="tipo_tarjeta" name="tipo_tarjeta">
+                        <option value="visa">Visa </option>
+                        <option value="mastercard">Mastercard</option>
+                        <option value="A_E">American Express</option>
+                    </select>
+                    <label for="tipo_tarjeta">Tipo de tarjeta: </label>
+
+                    <input type="text" id="numero_tarjeta" name="numero_tarjeta" required>
+                     <label for="num_tarjeta">Número de tarjeta<span class="asterisco">*</span>: </label>
+
+                    <input type="date" id="cad" name="cad" required>
+                     <label for="caducidad">Fecha de caducidad<span class="asterisco">*</span>: </label>
+
+
+                    <select class="metodo" id="metodo" name="metodo" size="3">
+                        <option value="tarjeta">Tarjeta de crédito</option>
+                        <option value="paypal">Paypal</option>
+                        <option value="bizum">Bizum</option>
+                        <option value="transfer">Transferencia</option>
+                    </select>
+                    <label for="metodo">Método de pago preferido: </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Añadir nueva dirección</legend>
+                
+                <div class="escribir">
+                        <label><input type="radio" name="Calle">Calle</label>
+                        <label><input type="radio" name="Avenida">Avenida</label>
+                        <label><input type="radio" name="Via"> Via</label>
+                    <label for="tipo_de_via">Tipo de via</label>
+
+                    <input type="text" id="direccion" name="direccion" placeholder="Ej: Calle Poeta ruiz 42 3ºB">
+                    <label for="direccion">Dirección</label>
+
+                    <select size="" id="poblacion" name="poblacion">
+                        <option disabled selected>Elige una opcion</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Móstoles">Móstoles</option>
+                        <option value="Rivas_Vaciamadrid">Rivas Vaciamadrid</option>
+                        <option value="Getafe">Getafe</option>
+                        <option value="Albacete">albacete</option>
+                    </select>
+                    <label for="tipo_tarjeta">Población</label>
+
+                    <input type="text" id="postal" name="direccion">
+                    <label for="metodo">Codigo Postal</label>
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Política de privacidad</legend>
+                <div class="politica">
+                    <label>
+                        <input type="checkbox" name="acepto" required> 
+                        He leído y acepto el Condiciones Generales de contratación y la Política de privacidad.
+                    </label>
+                </div>
+                <div class="politica">
+                    <label>
+                        <input type="checkbox" name="no_recibir"> 
+                        NO quiero recibir newsletters ni comunicaciones comerciales de GOYAZON.
+                    </label>
+                </div>
+            </fieldset>
+
+            <div class="botones">
+                <button type="submit" class="validar_pago">VALIDAR EL PAGO</button>
+                <button type="reset" class="cancelar_pago">CANCELAR</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

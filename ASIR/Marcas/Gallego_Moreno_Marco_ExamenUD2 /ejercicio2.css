@@ -1,0 +1,39 @@
+* {
+    font-family: Gadugi, Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+h1 {
+
+    color: gold;
+}
+
+.post {  
+        border: solid;
+        border-color: wheat;
+        padding: 2em;
+
+}
+
+#premium{
+    color: gold;
+}
+
+.anuncio {
+    border: solid;
+    border-color: gold;
+    padding: 2em;
+
+}
+
+.anuncio h2{
+    text-align: right;
+}
+
+.contenido:hover{
+    color: gold;
+}
+
+/*con este ultimo selector es el que hemos conseguido que el raton cambie de color a dorado cuando pase por el icono del raton, el cursor*/

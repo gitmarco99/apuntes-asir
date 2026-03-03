@@ -1,7 +1,7 @@
 -- Ejemplo 3: Creación BBDD completa (Ejercicio de hacer en clase que se corrige automático)
-drop database EJERCICIO3;
-create database EJERCICIO3;
-use EJERCICIO3;
+drop database if exists gestion_proyectos;
+create database gestion_proyectos;
+use gestion_proyectos;
 
 create table empleados (
 	id_empleado INT unsigned auto_increment,
